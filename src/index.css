@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.div_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 50px auto;
+  padding: 15px;
+  background-color: whitesmoke;
+  width: 400px;
+  border-radius: 10px;
+}
+
+h1{
+  margin: 0 0 15px;
+}
+
+input {
+  width: 270px;
+  margin: 5px 0 2px;
+  padding: 4px 13px;
+  border-radius: 5px;
+}
+
+p {
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: red;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  margin: 25px auto 5px;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.neutre {
+  border: 1px solid #ccc;
+}
+
+.validate {
+  border: 2px solid greenyellow;
+}
+
+.notValidate {
+  border: 2px solid red;
+}
+
+.listData {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 50px auto;
+  background-color: whitesmoke;
+  width: 400px;
+  border-radius: 10px;
+}
+
+h2 {
+  margin: 15px 0;
+}
+
+ul {
+  margin: 15px 0 30px;
+  text-align: left;
+}
+
+li {
+  margin: 5px 0 2px;
+}
